@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jaime\\Downloads\\software-design-lecture-2022-examples-lecture-4 (1)\\software-design-lecture-2022-examples-lecture-4\\software.design\\software.design.csproj": {}
+    "C:\\Users\\jaime\\Downloads\\lab2-main\\lab2-main\\software.design\\software.design.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jaime\\Downloads\\software-design-lecture-2022-examples-lecture-4 (1)\\software-design-lecture-2022-examples-lecture-4\\software.design\\software.design.csproj": {
+    "C:\\Users\\jaime\\Downloads\\lab2-main\\lab2-main\\software.design\\software.design.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaime\\Downloads\\software-design-lecture-2022-examples-lecture-4 (1)\\software-design-lecture-2022-examples-lecture-4\\software.design\\software.design.csproj",
+        "projectUniqueName": "C:\\Users\\jaime\\Downloads\\lab2-main\\lab2-main\\software.design\\software.design.csproj",
         "projectName": "software.design",
-        "projectPath": "C:\\Users\\jaime\\Downloads\\software-design-lecture-2022-examples-lecture-4 (1)\\software-design-lecture-2022-examples-lecture-4\\software.design\\software.design.csproj",
+        "projectPath": "C:\\Users\\jaime\\Downloads\\lab2-main\\lab2-main\\software.design\\software.design.csproj",
         "packagesPath": "C:\\Users\\jaime\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaime\\Downloads\\software-design-lecture-2022-examples-lecture-4 (1)\\software-design-lecture-2022-examples-lecture-4\\software.design\\obj\\",
+        "outputPath": "C:\\Users\\jaime\\Downloads\\lab2-main\\lab2-main\\software.design\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jaime\\AppData\\Roaming\\NuGet\\NuGet.Config"

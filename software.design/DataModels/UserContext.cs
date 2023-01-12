@@ -3,19 +3,19 @@ using Software.Design.Models;
 
 namespace Software.Design.DataModels;
 
-public class ProductContext : DbContext
+public class TVShowContext : DbContext
 {
-    public ProductContext(DbContextOptions options) : base(options)
+    public TVShowContext(DbContextOptions options) : base(options)
     {
     }
 
-    public DbSet<Product> Products => Set<Product>();
+    public DbSet<TVShow> TVShows => Set<TVShow>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Product>()
+        modelBuilder.Entity<TVShow>()
             .HasKey(b => b.tvshowid);
 
-        modelBuilder.Entity<Product>().ToTable("tvshow", schema: "public");
+        modelBuilder.Entity<TVShow>().ToTable("tvshow", schema: "public");
     }
 }

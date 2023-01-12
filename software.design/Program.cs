@@ -11,12 +11,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<ProductContext>(options =>
+builder.Services.AddDbContext<TVShowContext>(options =>
     options
         .UseNpgsql("Host=localhost;Database=lab2db;Username=postgres;Password=Jamen2001")
         .UseSnakeCaseNamingConvention());
 
-builder.Services.AddScoped<ProductService>();
+builder.Services.AddScoped<TVShowService>();
 
 var app = builder.Build();
 
